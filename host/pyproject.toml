@@ -1,0 +1,10 @@
+[project]
+name = "adaptive-led-light-host"
+version = "0.1.0"
+description = "Webcam posture & work-mode detector for Adaptive LED Light"
+requires-python = ">=3.12"
+dependencies = [
+    "mediapipe>=1.2.0",
+    "opencv-python>=5.0.0.93",
+    "pyserial>=3.5",
+]
